@@ -6,12 +6,12 @@ body{
     height: 100vh;
     font-family: 'Roboto',sans-serif;
     letter-spacing: 0.2px;
-    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    background-color: bisque;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .nav-item{
-    background-color: black;
+    background-color: brown;
     color: #fff;
     display: flex;
     justify-content: space-between;

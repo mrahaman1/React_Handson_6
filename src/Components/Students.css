@@ -20,7 +20,7 @@
 .top ul li button{
     position: absolute;
     right: 3rem;
-    background-color: blue;
+    background-color: salmon;
     color: #fff;
     font-weight: bold;
     letter-spacing: 0.2px;
@@ -30,7 +30,7 @@
     cursor: pointer;
 }
 .top ul li button:hover{
-    background-color: green;
+    background-color: greenyellow;
 }
 .student-data{
     position: relative;
@@ -52,7 +52,7 @@ table{
 th,td{
     padding: 0.6rem 4.4rem;
     text-align: center;
-    background-color: silver;
+    background-color: seashell;
     border-radius: 6px;
 }
 td{

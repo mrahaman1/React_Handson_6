@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
     <nav>
        <div className="nav-item">
-          <a href="/">React Handson4</a>
+          <h3><a href="/">React Handson 6</a></h3>
           <ul>
             <li><NavLink className={({isActive})=>(isActive ? 'active' : 'notactive')} to='/'><i class="fa-solid fa-house"></i>&nbsp;&nbsp;Home</NavLink></li>
             <li><NavLink className={({isActive})=>(isActive ? 'active' : 'notactive')} to='/student'><i class="fa-solid fa-user"></i>&nbsp;&nbsp;Student</NavLink></li>
