@@ -22,7 +22,7 @@ const Students = () => {
         <table className="data-table" border={"2"}>
             <thead>
                 <tr>
-                    <th>S.No</th>
+                    {/* <th>S.No</th> */}
                     <th>Name</th>
                     <th>Age</th>
                     <th>Course</th>
@@ -35,14 +35,15 @@ const Students = () => {
                     context.entries.map((studentdata,index)=>(
                 <tr key={index}>
                     {console.log(studentdata)}
-                    <td>{studentdata.id}</td>
+                    {/* <td>{studentdata.id}</td> */}
                     <td>{studentdata.name}</td>
                     <td>{studentdata.age}</td>
                     <td>{studentdata.course}</td>
                     <td>{studentdata.batch}</td>
                     <td>
-                       <Link to="/editstudent" state={{newstudent:index}}><button><i class="fa-solid fa-pen"></i></button></Link> 
-                       <button><i class="fa-solid fa-trash"></i></button>
+                        <Link to="/editstudent" state={{newstudent:index}}>Edit</Link> 
+                       {/* <Link to="/editstudent" state={{newstudent:index}}><button><i class="fa-solid fa-pen"></i></button></Link>  */}
+                       {/* <button><i class="fa-solid fa-trash"></i></button> */}
                     </td>
                 </tr>
                 ))}

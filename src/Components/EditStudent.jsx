@@ -32,7 +32,6 @@ const EditStudent = () => {
        );
        navigate('/');
     }
-
   return (
     <div className='addnewstudentform'>
         <form>
